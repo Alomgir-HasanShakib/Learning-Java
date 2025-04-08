@@ -8,6 +8,9 @@ public class Main {
         double height = 0;
         double area = 0;
 
+
+
+
         System.out.print("Enter width : ");
         width = scanner.nextDouble();
 
@@ -16,7 +19,7 @@ public class Main {
 
         area = width * height;
 
-        System.out.println("The area is : " + area);
+        System.out.println("The area is : " + area + "cm");
         scanner.close();
 
     }
