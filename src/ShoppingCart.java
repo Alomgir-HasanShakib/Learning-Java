@@ -21,10 +21,10 @@ public class ShoppingCart {
 
         totalPrice = price * quentity;
 
-        System.out.println("You have to pay total $" + totalPrice);
+        System.out.println("\n You have brought " + quentity + " " + item);
+        System.out.println("You have to pay total " + currency + totalPrice);
 
-
-
+        
         scanner.close();
     }
 }
